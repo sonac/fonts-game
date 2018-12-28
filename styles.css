@@ -1,0 +1,28 @@
+.body {
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px; 
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 1rem;
+}
+
+.body:hover {
+    cursor: pointer;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold; 
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.gamePhrase {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 80px;
+}
